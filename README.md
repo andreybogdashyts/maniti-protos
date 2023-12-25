@@ -37,11 +37,6 @@ go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
 go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
 ```
 
-### Run Task
-```
-task generate
-```
-
 ## Windows
 ### Run TaskFile
 #### Installations
@@ -57,7 +52,7 @@ Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 scoop install task
 ```
 
-##### Generate task
+## Run Task
 ```
-task generate_windows
+task generate
 ```
